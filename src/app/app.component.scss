@@ -190,6 +190,8 @@
 {
     display: flex;
     padding-top: .6rem;
+    border-bottom:.3px solid rgba(255, 255, 255, 0.265);
+    padding-bottom: .5rem;
     & .tweet-head
     {
         display: flex;
@@ -221,6 +223,18 @@
     {
         display: flex;
         justify-content: space-evenly;
+        margin-left:-75px;
+        padding-top: 1rem;
+
+        & .comment-icon
+        {
+            & :hover
+            {
+                color: #3ABFF8;
+                cursor: pointer;
+            }
+        }
+        
 
     }
 
